@@ -1,0 +1,42 @@
+.page-heading {
+  margin-bottom: 1.5rem;
+}
+
+.page-heading h1 {
+  margin-bottom: 0.35rem;
+}
+
+.page-heading p {
+  margin-bottom: 0;
+  color: #6c757d;
+}
+
+.facility-map {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+  gap: 0.75rem;
+}
+
+.facility-tile {
+  display: flex;
+  min-height: 6rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.6rem;
+  background: #fff;
+}
+
+.facility-tile.available {
+  border-color: #198754;
+}
+
+.facility-tile.booked {
+  border-color: #dc3545;
+  opacity: 0.65;
+}
+
+.facility-tile span {
+  font-size: 0.9rem;
+}
